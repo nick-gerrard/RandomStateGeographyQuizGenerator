@@ -19,7 +19,7 @@ try:
     os.makedirs(graded)
     print("graded folder created")
 except:
-    pritn("graded folder already exists")
+    print("graded folder already exists")
 #Reg Ex compilations for generating lists:
 
 nameRegEx = re.compile(r'Name: (.*)')
